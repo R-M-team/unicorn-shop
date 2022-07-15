@@ -1,6 +1,6 @@
 {
   "name": "store1",
-  "homepage": "https://r-m-team.github.io/unicorn-shop/unicorn-shop",
+  "homepage": "https://r-m-team.github.io/unicorn-shop/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "sh release.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
